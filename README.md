@@ -51,7 +51,7 @@ make migrate-up
 
 ### 5. Run the application
 
-Start the server:
+Start the server with:
 
 ```bash
 go run main.go
