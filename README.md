@@ -4,7 +4,7 @@ This is a learning-focused toy project that implements an event management syste
 
 ## Features
 
-- User signup and login with JWT-based authentication
+- User signup and login with JWT-based authentication and authorization
 - CRUD operations for events
 - Event registration and cancellation
 - PostgreSQL database integration with migrations using `golang-migrate`
