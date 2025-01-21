@@ -57,6 +57,12 @@ Start the server:
 go run main.go
 ```
 
+or optionally:
+
+```bash
+air
+```
+
 The API will be available at `http://localhost:8080`.
 
 ## API endpoints
