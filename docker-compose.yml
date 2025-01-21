@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16.3
+    container_name: pg-db
+    environment:
+      POSTGRES_DB: event-management
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    networks:
+      - backend
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      # - ./scripts:/docker-entrypoint-initdb.d
+    ports:
+      - "54332:5432"
+
+volumes:
+  db-data:
+
+networks:
+  backend:

@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/2
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIxQGdtYWlsLmNvbSIsImV4cCI6MTczNzQyMDQ5OSwidXNlcklkIjo2fQ.Cj1F-t9bUKHBqfEppAVA4h_bbx6uRjYWXkYeg6L5VGY
+
+{
+    "name": "Updated Event",
+    "description": "Updated Event Description",
+    "location": "Updated Event Location",
+    "dateTime": "2021-12-31T23:59:59.999Z"
+}

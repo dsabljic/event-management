@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGdtYWlsLmNvbSIsImV4cCI6MTczNzQ2MjkzNCwidXNlcklkIjo3fQ.cg8-_77eewt68_-IR0-q5iloCeLtEECUGKpJUKe5mWg
+
+{
+    "name": "user2's first event",
+    "description": "description",
+    "location": "location",
+    "dateTime": "2022-01-01T10:00:00Z"
+}
