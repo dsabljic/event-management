@@ -1,4 +1,4 @@
-# Event Management System (Toy Project)
+# Event Management System
 
 This is a learning-focused toy project that implements an event management system using Go and the Gin web framework.
 
